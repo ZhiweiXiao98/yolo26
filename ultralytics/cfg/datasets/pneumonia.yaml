@@ -1,0 +1,11 @@
+# Pneumonia Detection Dataset
+# Example usage: yolo detect train data=pneumonia.yaml model=yolo26n.pt
+
+path: datasets
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: pneumonia
